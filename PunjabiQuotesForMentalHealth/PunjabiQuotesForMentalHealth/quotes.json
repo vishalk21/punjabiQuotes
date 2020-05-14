@@ -1,14 +1,5 @@
-//
-//  quotes.json
-//  Punjabi
-//
-//  Created by Vishal Kaushal on 4/16/20.
-//  Copyright © 2020 vishal. All rights reserved.
-//
-
-import Foundation
 {
-    [
-        "text":"Kidda ji"
-    ]
+    "name" : "Dusty",
+    "breed": "Poodle",
+    "age": 7
 }
