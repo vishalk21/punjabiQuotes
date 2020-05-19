@@ -19,21 +19,9 @@ class ViewController: UIViewController {
     
     }
     
-        let jsonQuotes = jsonFile(text: "Kumar")
+        let jsonQuotes = jsonFile(text: "Kidda ji")
                print(jsonQuotes)
     
     }
-    
-    //Steps toDo
-    
-    //get the json file
-    // read the data
-    // parse the data
-    // read as an array
-    // creat object
-    // map to object
-    // read from object
-    // Update the UI 
-    
 }
 
