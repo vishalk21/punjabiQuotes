@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     }
     
-        let jsonQuotes = jsonFile(text: "Kidda ji")
+        let jsonQuotes = jsonFile(text: "Hello")
                print(jsonQuotes)
     
     }
