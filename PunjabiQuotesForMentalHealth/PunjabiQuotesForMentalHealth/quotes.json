@@ -1,14 +1,19 @@
-//
-//  quotes.json
-//  Punjabi
-//
-//  Created by Vishal Kaushal on 4/16/20.
-//  Copyright © 2020 vishal. All rights reserved.
-//
+[
+    {
+        "Name":"Kobe",
+        "Team" : "Lakers",
+        "Number" : 24
+    },
+    
+    {
+        "Name":"Lebron",
+        "Team" : "Heat",
+        "Number" : 23
+    }
 
-import Foundation
-{
-    [
-        "text":"Kidda ji"
-    ]
-}
+
+
+
+
+
+]

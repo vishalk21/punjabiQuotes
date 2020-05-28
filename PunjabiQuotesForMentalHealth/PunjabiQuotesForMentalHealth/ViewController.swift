@@ -13,15 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-  
-    struct jsonFile {
-             let text : String
+        guard let path = Bundle.main.path(forResource: "quotes", ofType: "json") else {return}
+        let url = URL(fileURLWithPath: path)
+        let data = try! Data(contentsOf: url)
+        
+        do{
+            let data = try! Data(contentsOf: url)
+            let json = try! JSONSerialization.jsonObject(with: data, options:.mutableContainers)
+            print(json)
+        }catch{
+            print(error)
+        }
+   
+}
     
-    }
-    
-        let jsonQuotes = jsonFile(text: "Hello")
-               print(jsonQuotes)
-    
-    }
 }
 
