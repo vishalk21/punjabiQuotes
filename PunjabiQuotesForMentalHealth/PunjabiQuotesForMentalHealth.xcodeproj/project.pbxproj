@@ -16,7 +16,7 @@
 		B1F87523246DC46D0065E28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F87521246DC46D0065E28B /* LaunchScreen.storyboard */; };
 		B1F8752E246DC46D0065E28B /* PunjabiQuotesForMentalHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8752D246DC46D0065E28B /* PunjabiQuotesForMentalHealthTests.swift */; };
 		B1F87539246DC46D0065E28B /* PunjabiQuotesForMentalHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F87538246DC46D0065E28B /* PunjabiQuotesForMentalHealthUITests.swift */; };
-		B1F87547246DC49F0065E28B /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = B1F87546246DC49F0065E28B /* quotes.json */; };
+		B1F87589247ED36E0065E28B /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = B1F87588247ED36D0065E28B /* quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		B1F87534246DC46D0065E28B /* PunjabiQuotesForMentalHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunjabiQuotesForMentalHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F87538246DC46D0065E28B /* PunjabiQuotesForMentalHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunjabiQuotesForMentalHealthUITests.swift; sourceTree = "<group>"; };
 		B1F8753A246DC46D0065E28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1F87546246DC49F0065E28B /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		B1F87588247ED36D0065E28B /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 		B1F87512246DC4680065E28B /* PunjabiQuotesForMentalHealth */ = {
 			isa = PBXGroup;
 			children = (
-				B1F87546246DC49F0065E28B /* quotes.json */,
 				B1F87513246DC4680065E28B /* AppDelegate.swift */,
+				B1F87588247ED36D0065E28B /* quotes.json */,
 				B1F87515246DC4680065E28B /* SceneDelegate.swift */,
 				B1F87517246DC4680065E28B /* ViewController.swift */,
 				B1F87519246DC4680065E28B /* Main.storyboard */,
@@ -238,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F87547246DC49F0065E28B /* quotes.json in Resources */,
+				B1F87589247ED36E0065E28B /* quotes.json in Resources */,
 				B1F87523246DC46D0065E28B /* LaunchScreen.storyboard in Resources */,
 				B1F87520246DC46D0065E28B /* Assets.xcassets in Resources */,
 				B1F8751B246DC4680065E28B /* Main.storyboard in Resources */,
