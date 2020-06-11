@@ -33,17 +33,25 @@ class ViewController: UIViewController {
         do{
             let data = try! Data(contentsOf: url)
             let json = try! JSONSerialization.jsonObject(with: data, options:.mutableLeaves)
-            print(jsonData)
+            print(json)
         }catch{
+            
             print(error)
         }
+        
+        
+        
+        
+        
+        
+        
    
 }
     
 }
 
 //Notes to read
-//Let, var
+
 //Options ?
 //fore wrapping and when we can apply that
 //Convert the data to Objects
